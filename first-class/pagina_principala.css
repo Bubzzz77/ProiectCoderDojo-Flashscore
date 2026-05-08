@@ -1,0 +1,56 @@
+body
+{
+  background-image: url(thumb-1920-1403313.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;        
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
+}
+
+body::before
+{
+    position: fixed;
+    background: rgba(0,0,0, 0.5);
+    inset: 0;
+    content: " ";
+    z-index: -1;
+}
+
+.buton_cautare
+{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    transition: opacity 0.15s;
+
+}
+
+.buton_cautare:hover
+{
+  opacity: 0.8;
+
+
+}
+
+.titlu
+{ 
+  font-family: Roboto, Arial;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+
+}
